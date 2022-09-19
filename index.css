@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+header .contact-menu {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 1rem 1.5rem;
+    text-align: right;
+}
+
+header .main-menu {
+    color: white;
+    fill: white;
+    background-color: rgb(2, 84, 85);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgb(2, 84, 85);
+}
+
+header .main-menu nv {
+    list-style: none;
+    display: none;
+}
+
+main .hero-form .hero{
+    width: 100%;
+    object-fit: contain;
+}
+
+main .hero-form .form-img{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (min-width: 600px) {
+    main .hero-form .form{
+        display: none;
+    }     
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+header .main-menu nav ul{
+    list-style: none;
+    display: none;
+}
+
+article img{
+    width:100%;
+}
+
+.logo-svg{
+    filter:invert();
+}
+
+main .email-cta img {
+    width:100%;
+}
+
+main .below-the-fold article {
+    width: 60%;
+}
